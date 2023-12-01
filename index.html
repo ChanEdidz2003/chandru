@@ -52,7 +52,15 @@
       width: 200px;
       height: 200px;
       border-radius: 50%;
-      box-shadow: 0px 0px 10px rgba(236, 83, 13, 0.638);
+      animation: chan 8s infinite;
+     
+    }
+    @keyframes chan{
+      0%{box-shadow: 0px 0px 10px rgba(236, 83, 13, 0.638);}
+      25%{box-shadow: 0px 0px 10px rgba(13, 206, 236, 0.638);}
+      50%{box-shadow: 0px 0px 10px rgba(232, 13, 236, 0.638);}
+      75%{box-shadow: 0px 0px 10px rgba(13, 236, 117, 0.638);}
+      100%{box-shadow: 0px 0px 10px rgba(236, 83, 13, 0.638);}
     }
     .card {
       position: relative;
@@ -90,6 +98,9 @@
     .comma {
       fill: white;
     }
+    .title{
+      color:rgb(1, 106, 108);
+    }
   </style>
   <body>
     <center>
@@ -99,7 +110,7 @@
             <a href="index.html" class="links nav-link mx-2">Home</a>
           </li> -->
           <li class="nav-item">
-            <a href="education.html" class="links nav-link mx-2">Education</a>
+            <a href="education.html" class="links nav-link">Education</a>
           </li>
           <li class="nav-item">
             <a href="project.html" class="links nav-link mx-2">Projects</a>
@@ -114,7 +125,7 @@
       </nav>
       <div class="container container-lg">
         <p class="p1">Hello! My Name is</p>
-        <h1>Chandru Duraiyan</h1>
+        <h1 class="title">Chandru Duraiyan</h1>
         <p class="p2">Developer</p>
         <img class="img1 mt-4" src="chann.jpg" alt="" />
         <div class="card p-2 mt-5 rounded">
@@ -223,7 +234,7 @@
     <img src="w3_css-ar21.svg" alt=""> -->
       </div>
       <div class="footer mt-4 p-4 bg-dark">
-        <a href="https://github.com/ChanEdidz2003">
+        <a href="https://github.com/Chandru2605">
           <svg
             class="f-link mx-3"
             xmlns="http://www.w3.org/2000/svg"
@@ -286,7 +297,7 @@
             />
           </svg>
         </a>
-        <a href="">
+        <a href="https://www.behance.net/chandruchandru84/info">
           <svg
             class="f-link mx-3"
             xmlns="http://www.w3.org/2000/svg"
